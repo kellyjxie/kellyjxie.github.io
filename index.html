@@ -1,0 +1,40 @@
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="petmate2styles.css" rel="stylesheet">
+
+	<script>
+		// Get the video
+		var video = document.getElementById("myVideo");
+
+		// Pause and play the video
+		function myFunction() {
+		    if (video.paused) {
+		        video.play();
+		    } else {
+		        video.pause();
+		    }
+		}
+	</script>
+
+</head>
+
+
+<body>
+	<video autoplay muted loop id="myVideo" class="video-background" plays-inline onclick="myFunction()">
+		<source src="dog video.mp4" type="video/mp4">
+	</video>
+
+	<div class="branding">
+	  <h1>PetMate<br /></h1>
+	  <ul>
+	  	<li><a href="about3.html">About Us</a></li>
+	  	<li><a href="#">Explore</a></li>
+	  	<li><a href="#">Donation</a></li>
+		<li><a href="#">Testimonials</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Resources</a></li>
+	  </ul>
+	</div>
+
+
+</body>
