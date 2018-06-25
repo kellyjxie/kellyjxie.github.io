@@ -65,6 +65,10 @@ body {
   margin-bottom: 2rem;
 }
 
+header {
+  margin: 0;
+}
+
 .masthead-brand {
   margin-bottom: 0;
 }
